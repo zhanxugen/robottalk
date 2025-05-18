@@ -26,7 +26,7 @@ form.onsubmit = async function (e) {
         const resp = await methods.sendLogin(useObj)
         if (resp.code === 0) {
             alert('登录成功了');
-            location.href = './index.html';
+            location.href = DEPLOY_URL + './index.html';
         } else {
             alert(`${resp.msg}`)
         }

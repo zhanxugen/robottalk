@@ -40,7 +40,7 @@ function $$$(tagName) {
     //叉掉按钮，取消登录
     doms.closeBtn.onclick = function () {
         methods.clearLogin();
-        location.href = './login.html'
+        location.href = DEPLOY_URL + './login.html'
     }
 
     //侧边两个p元素

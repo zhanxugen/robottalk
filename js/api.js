@@ -1,4 +1,4 @@
-
+var DEPLOY_URL = 'https://zhanxugen.github.io/robottalk/';
 
 //先把所有的接口给调试成功先
 

@@ -49,7 +49,7 @@ form.onsubmit = async function (e) {
         const resp = await methods.sendRegister(useObj);
         if (resp.code === 0) {
             alert('注册成功了');
-            location.href = './login.html';
+            location.href = DEPLOY_URL + './login.html';
         } else {
             alert(`${resp.msg}`)
         }
